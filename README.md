@@ -1,8 +1,10 @@
 ### Hi there 👋
 
+Im 17012
 
 
-![Yeah](https://17012.vercel.app/api/profile)
+Like2
+![Yeah](https://17012.vercel.app/assets/giphy.gif)
 
 
 
