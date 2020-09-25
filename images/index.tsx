@@ -9,7 +9,7 @@ export async function renderImage(imageName: string) {
   let markup;
   for (;;) {
     try {
-      markup = renderToStaticMarkup(<Image name={imageName} />);
+      markup = renderToStaticMarkup(<Image name={"Picture"} />);
       break;
     } catch (error) {
       throw error;
