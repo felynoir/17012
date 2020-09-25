@@ -1,11 +1,11 @@
 import { NowRequest, NowResponse } from "@vercel/node";
-// import { renderImage } from "../images";
+import { renderImage } from "../images";
 import { createReadStream } from "fs";
 const { join } = require("path");
 
 export default async function (req: NowRequest, res: NowResponse) {
   try {
-    // const result = await renderImage(String(req.query.name));
+    const result = await renderImage(String(req.query.name));
 
     res.setHeader("Content-Type", "image/svg+xml");
     const image = createReadStream(
